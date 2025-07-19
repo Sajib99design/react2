@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-onest: "Onest", sans-serif;
+  --color-orange: #F26922;
+  --color-gray: #E4E4E7;
+}
+
+body {
+  font-size: 14px;
+  color: #71717A;
+  /* background: #E4E4E7; */
+  font-weight: 400;
+  font-family: "Onest", sans-serif;
+  padding: 0 14px;
+}
+
+.customInput{
+  background-position: 4% 50%;
+}
